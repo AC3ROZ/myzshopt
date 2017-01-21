@@ -32,3 +32,12 @@ setopt mark_dirs
 setopt numeric_glob_sort
 setopt magic_equal_subst
 setopt always_last_prompt
+setopt hist_ignore_space
+setopt hist_verify
+setopt hist_reduce_blanks
+setopt hist_save_no_dups
+setopt hist_no_store
+setopt hist_expand
+setopt inc_append_history
+bindkey "^R" history-incremental-search-backward
+bindkey "^S" history-incremental-search-forward
